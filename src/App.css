@@ -1,38 +1,57 @@
+body {
+  background-color: #f3f3f3;
+}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field {
+  outline: none;
+  border: 0;
+  width: 200px;
+  height: 20px;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button {
+  outline: none;
+  margin-left: 20px;
+  border: 0;
+  width: 80px;
+  height: 40px;
   color: white;
+  background: #e95678;
+  border-radius: 5px;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.example-id {
+  padding: 5px 0px;
+  font-size: 10px;
+  color: #adadad;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie-card {
+  background: white;
+  border-radius: 8px;
+  width: 400px;
+  margin: 0 auto;
+  color: #616161;
+}
+
+.movie-card h2 {
+  padding: 20px 10px;
+  color: #2c2c2c;
+}
+.movie-card p {
+  padding: 15px 30px;
+  font-size: 12px;
+}
+
+.movie-card img {
+  border-radius: 5px;
 }
