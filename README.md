@@ -4,7 +4,7 @@
 
 
 ## You can see the tutorial here
---- Coming soon ---
+[Tutorial](https://medium.com/@mauriciogc/react-hooks-usestate-useeffect-usecontext-parte-i-f8cc8c9cce0f)
 
 ## You can see a live demo here
 * [React Search Id IMDB with useEffect](https://codesandbox.io/s/react-hooks-useeffect-2-borjp?file=/src/App.js)
